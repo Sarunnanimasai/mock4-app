@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="home_container">
+      <div>
+        <button id="lform">Login</button>
+        <div id="login">
+          <input type="text" placeholder="email" id="lemail" required />
+          <input
+            type="password"
+            placeholder="password"
+            id="lpassword"
+            required
+          />
+          <button onclick="adminLogin()">Login</button>
+        </div>
+      </div>
+      <div>
+        <button id="lregister">Register</button>
+        <div id="register">
+          <input type="text" placeholder="username" id="ruser" required />
+          <input type="email" placeholder="email" id="remail" required />
+          <input
+            type="password"
+            placeholder="password"
+            id="rpassword"
+            required
+          />
+          <input
+            type="password"
+            placeholder="repeat password"
+            id="rrpassword"
+            required
+          />
+          <button onclick="register()">Register</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

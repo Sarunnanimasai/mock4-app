@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <div id="admin_container">
+      <form>
+        <div>
+          <select id="Category">
+            <option value="All_Categories">All Categories</option>
+            <option value="Family">Family</option>
+            <option value="Deluxe">Deluxe</option>
+            <option value="Suite">Suite</option>
+          </select>
+          <input id="file" type="url" placeholder="Enter Url" />
+          <div>
+            <p>Choose Type of Room:</p>
+            <input type="radio" id="AC" name="ac" value="AC" />
+            <label>AC</label><br />
+            <input type="radio" id="nonAC" name="ac" value="nonAC" />
+            <label>nonAC</label><br />
+          </div>
+          <select id="bed">
+            <option value="Beds">Beds</option>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+          </select>
+          <input type="text" placeholder="No of adults" id="adults" />
+          <input type="text" placeholder="Max capacity" id="max_capacity" />
+          <input type="number" placeholder="Cost per night in Rs." id="cost" />
+        </div>
+        <button onclick="submitData()" id="submit">Submit</button>
+      </form>
+      <table>
+        <tbody>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Category</th>
+              <th>Type of room</th>
+              <th>Bed type</th>
+              <th>No of Persons</th>
+              <th>Capacity</th>
+              <th>Cost</th>
+              <th>Status</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+        </tbody>
+        <tbody id="table"></tbody>
+      </table>
+    </div>
+  </body>
+  <script src="./admin.js"></script>
+</html>
+
+<!-- - Category - select tag ( Family, Deluxe, Suite)
+- Image of room (use URL of random image)
+- Type of room - AC or non AC (radio button)
+- Bed type - select tag (Single, Double)
+- No of adults
+- Max capacity
+- Cost per night in Rs -->

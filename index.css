@@ -1,0 +1,18 @@
+#home_container {
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+}
+#login {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+}
+#register {
+  margin-top: 5%;
+  display: none;
+}

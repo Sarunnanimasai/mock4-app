@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "ruser": "sarun",
+      "remail": "sarunnnai@gmail.com",
+      "rpassword": "123456",
+      "id": 1
+    },
+    {
+      "ruser": "aayush",
+      "remail": "aayush@gmail.com",
+      "rpassword": "123456",
+      "id": 2
+    }
+  ],
+  "admindata": [
+    {
+      "category": "Family",
+      "file": "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+      "type_of_room": "AC",
+      "bed": "Single",
+      "adults": "2",
+      "max": "5",
+      "cost": "5000",
+      "id": 1
+    }
+  ]
+}

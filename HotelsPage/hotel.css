@@ -1,0 +1,27 @@
+#hotels {
+  width: 65%;
+  margin: auto;
+}
+#hotel_card {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 5%;
+}
+#hotel_card h2 {
+  color: blue;
+}
+#book {
+  width: 100%;
+  color: white;
+  background: rgb(41, 40, 65);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 40, 65, 1) 0%,
+    rgba(9, 9, 121, 1) 47%,
+    rgba(70, 76, 78, 1) 100%
+  );
+  border: none;
+  padding: 2%;
+  border-radius: 8px;
+}
